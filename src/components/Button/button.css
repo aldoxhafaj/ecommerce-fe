@@ -1,0 +1,47 @@
+.black-btn {
+	width: 50%;
+	height: 40px;
+	font-size: 18px;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: black;
+	user-select: none;
+	transition: 150ms;
+}
+.black-btn:hover {
+	opacity: 0.9;
+}
+
+.black-btn:active {
+	opacity: 0.8;
+}
+.disabled {
+	width: 50%;
+	height: 40px;
+	font-size: 18px;
+	border: none;
+	border-radius: 4px;
+	background-color: #bdc3c7;
+	color: #fff;
+}
+.sky-btn {
+	width: 50%;
+	height: 40px;
+	font-size: 18px;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: #3498db;
+	user-select: none;
+	transition: 150ms;
+}
+.sky-btn:hover {
+	opacity: 0.9;
+}
+
+.sky-btn:active {
+	opacity: 0.8;
+}
